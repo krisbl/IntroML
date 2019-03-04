@@ -21,6 +21,6 @@ df_test = pd.read_csv('test.csv')
 x_test = df_test[df_test.columns[1:11]]
 y_pred = model.predict(x_test)
 
-result = pd.DataFrame({'Id': df_test['Id'],'y_pred': y_pred})
+result = pd.DataFrame({'Id': df_test['Id'],'y': y_pred})
 
-result.to_csv('submission.csv')
+result.to_csv('k_submission.csv')
