@@ -1,0 +1,10 @@
+name: IntroML
+
+dependencies:
+  - python=3.5
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
